@@ -1,4 +1,4 @@
-User-agent: * 
-Disallow: 
-Host: https://github.com/Yato20XX/Yato20XX.github.io 
-Sitemap: https://github.com/Yato20XX/Yato20XX.github.io/blob/main/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Host: github.com/Yato20XX/Yato20XX.github.io
+Sitemap: http://github.com/Yato20XX/Yato20XX.github.io/sitemap.xml
