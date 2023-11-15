@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+header{
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	display: block;
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	width: 100%;
+}
+
+h1, h2, h3{
+	text-align: center;
+	margin: 0px 20px;
+}
+
+header button{
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	border: none;
+	margin: 0px 20px;
+	background-color: transparent;
+}
+
+.inline{
+	display: inline;
+}
+
+.header_menu-btn-img{
+	width: 30px;
+	height: 30px;
+}
+
+.general_border_message{
+	max-width: 900px;
+	min-width: 400px;
+}
+
+.border_message{
+	display: grid;
+}
+
+.border_message input{
+	max-width: 900px;
+	min-width: 400px;
+	margin: 5px 20px;
+}
+
+.border_message textarea{
+	max-width: 900px;
+	min-width: 400px;
+	margin: 5px 20px;
+	resize: none;
+}
+
+.border_message-btn{
+	float: right;
+	margin: 5px 20px;
+}
