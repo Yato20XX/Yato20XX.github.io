@@ -1,5 +1,61 @@
-<figure>
-  <figcaption>Listen to the rewrite:</figcaption>
-  <audio controls src="Iuchi_Maiko_(Rewrite_Game_OST)_Hinagiku.mp3"></audio>
-  <a href="Iuchi_Maiko_(Rewrite_Game_OST)_Hinagiku.mp3"> Download audio </a>
-</figure>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>music cloud</title>
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				background-color: #1c1c1c;
+				color: #ffffff;
+			}
+
+			.music_line{
+				display: grid;
+				grid-template-columns: 40px 150px 40px;
+				grid-column-gap: 10px;
+			}
+
+			.music_line img{
+				width: 40px;
+				height: 40px;
+				margin: 5px 0;
+			}
+
+			.music_line a{
+				width: 40px;
+				height: 40px;
+			}
+
+			.music_line-controls{
+				display: grid;
+				width: 150px;
+			}
+
+			.music_line-controls audio{
+				width: 150px;
+				height: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+
+		</header>
+		<figure>
+  			<div class="music_line">
+  				<img src="icons.png">
+  				<div class="music_line-controls">
+  					<figcaption>Rewrite - Hinagiku</figcaption>
+  					<audio controls src="Iuchi_Maiko_(Rewrite_Game_OST)_Hinagiku.mp3"></audio>
+  				</div>
+  				<a href="Iuchi_Maiko_(Rewrite_Game_OST)_Hinagiku.mp3">
+  					<img src="download.png">
+  				</a>
+  			</div>
+		</figure>
+	</body>
+</html>
