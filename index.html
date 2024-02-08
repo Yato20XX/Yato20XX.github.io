@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>music cloud</title>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+				background-color: #212121;
+			}
+
+			.music_player{
+				width: 250px;
+				margin: 20px auto;
+				padding-bottom: 20px;
+				border-bottom: 2px solid #ffffff;
+				text-align: center;
+			}
+
+			.music_player img{
+				width: 100px;
+				height: 100px;
+				padding: 40px;
+				border-radius: 20px;
+				background: linear-gradient(#525252,#262626);
+				box-shadow: 0 0 10px rgba(0,0,0,0.7);
+			}
+
+			.music_player p{
+				font-size: 15px;
+				color: #ffffff;
+				text-align: center;
+			}
+
+			.controls button{
+				width: 24px;
+				height: 24px;
+				margin: 0 20px;
+				display: inline-block;
+				background-color: transparent;
+				border: none;
+				cursor: pointer;
+			}
+
+			.prev{
+				background: url('prev.png');
+			}
+
+			.play{
+				background: url('play.png');
+			}
+
+			.next{
+				background: url('next.png');
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="music_player">
+			<img src="icons.png">
+			<p id="title">dawdasdawdaw</p>
+			<audio id="source"></audio>
+			<div class="controls">
+				<button class="prev" onclick="prev()"></button>
+				<button class="play" onclick="play()"></button>
+				<button class="next" onclick="next()"></button>
+			</div>
+		</div>
+		<ol id="music_list"></ol>
+	</body>
+	<script src="list.js"></script>
+	<script src="main.js"></script>
+</html>
