@@ -61,11 +61,11 @@
 	<body>
 		<div class="music_player">
 			<img src="icons.png">
-			<p id="title">Rewrite_Hinagiku</p>
+			<p id="title">Rewrite_Hinagiku.mp3</p>
 			<audio id="source" src="Rewrite_Hinagiku.mp3"></audio>
 			<div class="controls">
 				<button class="prev" onclick="prev()"></button>
-				<button class="play" onclick="play()"></button>
+				<button class="play" id="play_track"></button>
 				<button class="next" onclick="next()"></button>
 			</div>
 		</div>
@@ -74,10 +74,11 @@
 	<script>
 		let title = document.getElementById('title');
 		let audio = document.getElementById('source');
-		let music_list = document.getElementById('music_list');
+		let play_track = document.getElementById('play_track');
 
-		function play(){
+
+		play_track.addEventListener('click', function(){
 			audio.play();
-		};
+		});
 	</script>
 </html>
